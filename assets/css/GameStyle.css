@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.preloader {
+    background-image: url("../image/bk/thumb-1920-1184952.jpg");
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+    background-size: cover;
+    background-position: center;
+}
+
+.background {
+    width: 100%;
+    height: 100vh;
+    background-image: url("../image/bk/desert-landscape-with-cactuses-and-mountains-on-skyline-vector.jpg");
+    background-repeat: repeat-x;
+    overflow-x: hidden;
+    background-position: center;
+    position: absolute;
+}
+
+.girl {
+    width: 160px;
+    margin-top: 790px;
+    margin-left: 50px;
+    position: absolute;
+}
+
+#gameStart {
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    margin: auto;
+}
+
+#gameStart h1 {
+    color: white;
+    font-size: 70px;
+}
+
+#gameIntru h2 {
+    margin-left: 30px;
+    color: #283747;
+    font-size: 50px;
+}
+
+#gameIntru ul > li {
+    margin-left: 80px;
+    color: #283747;
+    font-size: 50px;
+}
+
+#start h1 {
+    margin-left: 90px;
+    margin-top: 50px;
+    color: #660a0a;
+    font-size: 80px;
+    cursor: pointer;
+}
+
+#start h1:hover {
+    transform: scale(1.2);
+    transition: .5s;
+}
+
+span {
+    color: #f9004d;
+}
+
+.box {
+    width: 140px;
+    height: 140px;
+    position: absolute;
+    top: 820px;
+    background-image: url("../image/barrier/istockphoto-1169356394-170667a-removebg-preview.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.score{
+    font-size: 50px;
+    font-weight: bold;
+    margin-left: 30px;
+    margin-top: 20px;
+    position: absolute;
+}
